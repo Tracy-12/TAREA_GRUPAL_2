@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><MD_Metadata xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xalan="http://xml.apache.org/xalan" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.isotc211.org/2005/gmd">
+    <fileIdentifier>
+        <gco:CharacterString>b3508543bfcc4f60a2430bcf45375cf3</gco:CharacterString>
+    </fileIdentifier>
+    <language>
+        <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+    </language>
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+    </characterSet>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+    </hierarchyLevel>
+    <hierarchyLevelName>
+        <gco:CharacterString>dataset</gco:CharacterString>
+    </hierarchyLevelName>
+    <contact>
+        <CI_ResponsibleParty>
+            <organisationName>
+                <gco:CharacterString>Department of Health and Aged Care</gco:CharacterString>
+            </organisationName>
+            <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+            </role>
+        </CI_ResponsibleParty>
+    </contact>
+    <dateStamp gco:nilReason="missing"/>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>2007</gco:CharacterString>
+    </metadataStandardVersion>
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation>
+                <CI_Citation>
+                    <title>
+                        <gco:CharacterString>Public Hospitals</gco:CharacterString>
+                    </title>
+                    <date>
+                        <CI_Date>
+                            <date>
+                                <gco:Date>2024-07-29</gco:Date>
+                            </date>
+                            <dateType>
+                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
+                            </dateType>
+                        </CI_Date>
+                    </date>
+                    <citedResponsibleParty>
+                        <CI_ResponsibleParty>
+                            <organisationName>
+                                <gco:CharacterString>Department of Health and Aged Care</gco:CharacterString>
+                            </organisationName>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </citedResponsibleParty>
+                </CI_Citation>
+            </citation>
+            <abstract>
+                <gco:CharacterString>Abstract
+This feature layer describes the location of Australia’s public hospitals, operational at some point during the 2022-23 Financial Year. A public hospital is defined as a hospital included in the Australian Institute of Health and Welfare’s (AIHW) National Public Hospital Establishment (NPHE) database, for the relevant financial year.
+The NPHE database holds data for each public hospital in Australia, including public acute hospitals, psychiatric hospitals, drug and alcohol hospitals and dental hospitals in all states and territories. Hence, public hospitals not administered by the state and territory health authorities (hospitals operated by correctional authorities for example, and hospitals in offshore territories) are not included.
+For this feature layer, an NPHE hospital is only included if it was also included in the AIHW’s count of public hospitals as reported in the online Hospital Resources data tables for the relevant financial year (2022-23: https://www.aihw.gov.au/getmedia/06f2c08c-f00f-439e-b57c-9a825ffc505c/Hospital-resources-tables-2022-23.xlsx).
+As noted in the AIHW’s technical appendix accompanying the NPHE data, the number of public hospitals reported can be affected by administrative and/or reporting arrangements and is not necessarily a measure of the number of physical hospital buildings or campuses. For more information on the 2022-23 NPHE see: https://www.aihw.gov.au/getmedia/747ae239-e38b-45a9-8d83-0ac6a3e0726f/hospital-resources-2022-23-appendix.pdf
+The original data source for the public hospital layer is not the same as the Commonwealth’s list of declared hospitals (https://www.health.gov.au/resources/publications/list-of-declared-hospitals), however, there is considerable cross-over between the NPHE and Commonwealth list. There are a small number of private hospitals in the Commonwealth list of hospitals that are treated as public hospitals by the AIHW in NPHE. For 2022-23, these hospitals are:
+
+
+Hawkesbury District Health Service (NSW)
+
+
+Northern Beaches Hospital (NSW)
+
+
+Mclaren Vale &amp;amp; Districts War Memorial Hospital Incoperated (SA) 
+
+
+Joondalup Health Campus (WA)
+
+
+St John Of God Midland Public &amp;amp; Private Hospital (WA)
+
+
+Currency
+Date modified: September 2024
+Modification frequency: As needed
+Data Extent
+Spatial Extent
+West: 96.82° 
+South: -43.74° 
+East: 167.99° 
+North: -9.14° 
+Source Information
+Australian Institute of Health and Welfare’s (AIHW) National Public Hospital Establishment (NPHE) database 
+Australian Department of Health and Aged care: Geospatial Data Hub
+Lineage Statement
+A public hospital is defined as a hospital included in the Australian Institute of Health and Welfare’s (AIHW) National Public Hospital Establishment (NPHE) database, for the relevant financial year.
+Data Dictionary
+
+
+
+Attribute Name
+Description
+
+
+
+
+OBJECTID
+Automatically Generated System ID
+
+
+hsib_id
+Department of Health and Aged Care unique identifier for each hospital
+
+
+hosp_name
+Hospital Name
+
+
+category
+Hospital type
+
+
+street
+Street
+
+
+pcode
+Post Code
+
+
+suburb
+Suburb
+
+
+state
+State/Territory
+
+
+xcoord
+Longitude
+
+
+ycoord
+Latitude
+
+
+
+Contact
+Contact: Department of Health and Aged Care -  geospatial@health.gov.au  </gco:CharacterString>
+            </abstract>
+            <purpose>
+                <gco:CharacterString>The location of Australia’s public hospitals which were operational at some point during the 2022-23 Financial Year.</gco:CharacterString>
+            </purpose>
+            <credit>
+                <gco:CharacterString>© Commonwealth of Australia, Australian Department of Health and Aged Care, Australian Institute of Health and Welfare, 2024.</gco:CharacterString>
+            </credit>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Foundation</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Physical infrastructure</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <resourceConstraints>
+                <MD_Constraints>
+                    <useLimitation>
+                        <gco:CharacterString>License: Creative Commons Attribution 4.0 
+Access rights: Public
+</gco:CharacterString>
+                    </useLimitation>
+                </MD_Constraints>
+            </resourceConstraints>
+            <language>
+                <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+            </language>
+            <characterSet>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterSet>
+            <topicCategory>
+                <MD_TopicCategoryCode>health</MD_TopicCategoryCode>
+            </topicCategory>
+            <extent>
+                <EX_Extent>
+                    <geographicElement>
+                        <EX_GeographicBoundingBox>
+                            <westBoundLongitude>
+                                <gco:Decimal>109.73099999999071</gco:Decimal>
+                            </westBoundLongitude>
+                            <eastBoundLongitude>
+                                <gco:Decimal>159.3969999999866</gco:Decimal>
+                            </eastBoundLongitude>
+                            <southBoundLatitude>
+                                <gco:Decimal>-45.538999999996165</gco:Decimal>
+                            </southBoundLatitude>
+                            <northBoundLatitude>
+                                <gco:Decimal>-6.896999999999439</gco:Decimal>
+                            </northBoundLatitude>
+                        </EX_GeographicBoundingBox>
+                    </geographicElement>
+                </EX_Extent>
+            </extent>
+        </MD_DataIdentification>
+    </identificationInfo>
+    <distributionInfo>
+        <MD_Distribution>
+            <transferOptions>
+                <MD_DigitalTransferOptions>
+                    <onLine>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>https://services5.arcgis.com/OvOcYIrJnM97ABBA/arcgis/rest/services/Public_Hospitals_2021_22/FeatureServer/3</URL>
+                            </linkage>
+                        </CI_OnlineResource>
+                    </onLine>
+                </MD_DigitalTransferOptions>
+            </transferOptions>
+        </MD_Distribution>
+    </distributionInfo>
+</MD_Metadata>
